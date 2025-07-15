@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Abhijit Jha", url: "https://github.com/Abhijit-Jha" }],
   creator: "Abhijit Jha",
-  metadataBase: new URL("https://mintpilot.vercel.app"), // Replace with your actual domain
+  metadataBase: new URL("https://mintpilot.abhijit.website"), 
   openGraph: {
     title: "MintPilot – Solana Devnet Wallet & Token Manager",
     description:
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     siteName: "MintPilot",
     images: [
       {
-        url: "https://mintpilot.vercel.app/og.png", // Update to your Open Graph image
+        url: "https://mintpilot.abhijit.app/og.png", 
         width: 1200,
         height: 630,
         alt: "MintPilot UI Screenshot",
@@ -49,12 +49,10 @@ export const metadata: Metadata = {
     type: "website",
   },
   twitter: {
-    card: "summary_large_image",
     title: "MintPilot – Solana Devnet Wallet & Token Manager",
     description:
       "Create and manage Solana Devnet wallets, airdrop SOL, mint and track SPL tokens using MintPilot.",
-    images: ["https://mintpilot.vercel.app/og.png"],
-    creator: "@your_twitter", // Optional
+    images: ["https://mintpilot.abhijit.website/og.png"],
   },
   icons: {
     icon: "/favicon.ico",
